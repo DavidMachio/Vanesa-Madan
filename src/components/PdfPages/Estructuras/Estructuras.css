@@ -1,0 +1,38 @@
+
+.mainestructuras {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: var(--margin-xxl);
+}
+.estructuras {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center ;
+    max-width: 800px;
+    padding: var(--padding-l);
+    gap: var(--gap-xl);
+
+
+    
+}
+
+.imgestructuras {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 100%;
+    /* padding: var(--padding-l); */
+}
+.estructuras p {
+    max-width: 100%;
+    
+}
+.contenedortextos {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+

@@ -1,0 +1,38 @@
+
+.mainreplication {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: var(--margin-xxl);
+
+}
+.replication {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center ;
+    padding: var(--padding-l);
+    max-width: 800px;
+    gap: var(--gap-xl);
+
+}
+
+.imgreplication {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 100%;
+
+    /* padding: var(--padding-l); */
+}
+.replication p {
+    max-width: 100%;
+    
+}
+.contenedortextos {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+

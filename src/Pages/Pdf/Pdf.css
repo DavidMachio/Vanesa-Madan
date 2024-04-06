@@ -1,0 +1,6 @@
+
+
+.main-pdf {
+    /* border: 2px solid red; */
+    min-height: calc(100svh - 50px);
+}
