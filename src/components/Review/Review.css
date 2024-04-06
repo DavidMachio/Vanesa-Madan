@@ -35,6 +35,9 @@
 .blue {
     background-color: var(--vm-label-2);
 }
+.gold {
+    background-color: var(--vm-label-3);
+}
 .review {
     font-size: var(--font-size-m);
     font-style: italic;
