@@ -10,7 +10,7 @@ export const printReplication = (parent) => {
         const replication = document.createElement('div')
         replication.className = 'replication'
     
-        printReview( 'Hepatitis C Virus RNA Replication and Assembly: Living onthe Fat if the Land', 'Published in (Journal/Editorial):' ,mainReplication, 'blue', '/mediosReplication.png')
+        printReview('Review',  'Hepatitis C Virus RNA Replication and Assembly: Living onthe Fat if the Land', 'Published in (Journal/Editorial):' ,mainReplication, 'blue', '/mediosReplication.png')
         
     
         replication.innerHTML = `

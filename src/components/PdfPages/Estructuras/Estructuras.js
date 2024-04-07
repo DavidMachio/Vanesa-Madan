@@ -9,7 +9,7 @@ export const printEstructuras = (parent) => {
     const estructuras = document.createElement('div')
     estructuras.className = 'estructuras'
 
-    printReview('Structural and Functional Properties of the Hepatitis C Virus p7 Viroporin', 'Published in (Journal/Editorial):' ,mainEstructuras, 'red', '/mediosEstructuras.png')
+    printReview('Review', 'Structural and Functional Properties of the Hepatitis C Virus p7 Viroporin', 'Published in (Journal/Editorial):' ,mainEstructuras, 'red', '/mediosEstructuras.png')
     
 
     estructuras.innerHTML = `

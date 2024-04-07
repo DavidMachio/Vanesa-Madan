@@ -11,7 +11,7 @@
 .izquierdo {
     display: flex;
     height: auto;
-    max-width: 400px;
+    max-width: 500px;
     gap: var(--font-size-m);
     padding-right:var(--padding-l);
     margin: 20px 0;
@@ -26,7 +26,7 @@
 
 .labelReview {
     min-height: 100%;
-    width: 40px;
+    min-width: 25px;
 }
 
 .red{
@@ -37,6 +37,12 @@
 }
 .gold {
     background-color: var(--vm-label-3);
+}
+.green {
+    background-color: var(--vm-label-4);
+}
+.violet{
+    background-color: var(--vm-label-5);
 }
 .review {
     font-size: var(--font-size-m);

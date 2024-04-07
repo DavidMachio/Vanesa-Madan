@@ -1,0 +1,33 @@
+
+.mainmockup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: var(--margin-xxl);
+}
+.mockup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center ;
+    max-width: 90%;
+    border: 1px solid rgb(193, 193, 193);
+}
+
+.imgmockup {
+    width: 100%;
+    /* padding: var(--padding-l); */
+}
+.mockup p {
+    max-width: 100%;
+    
+}
+.contenedortextos {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-l);
+    width: auto;
+}
+

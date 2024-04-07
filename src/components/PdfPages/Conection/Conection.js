@@ -8,7 +8,7 @@ export const printConection = (parent) => {
         const conection = document.createElement('div')
         conection.className = 'conection'
     
-        printReview( 'Hepatitis C virus and host cell lipids: An intimate connection', 'Published in (Journal/Editorial):' ,mainConection, 'gold', '/mediosConection.png')
+        printReview('Review',  'Hepatitis C virus and host cell lipids: An intimate connection', 'Published in (Journal/Editorial):' ,mainConection, 'gold', '/mediosConection.png')
         
     
         conection.innerHTML = `
