@@ -10,6 +10,7 @@ import { printReplication } from '../../components/PdfPages/Replicaction/Replica
 import { printResearch } from '../../components/PdfPages/Research/Research';
 import { printTitle } from '../../components/PdfPages/Title/Title';
 import { printWeblayout } from '../../components/PdfPages/Weblayout/Weblayout';
+import { printFooterPdf } from '../../components/PdfPages/Footerpdf/Footerpdf';
 import './Pdf.css'
 
 const app = document.querySelector('#app')
@@ -37,6 +38,7 @@ export const printPdf = () => {
     printArticulo(mainPdf)
     printWeblayout(mainPdf)
     printMockup(mainPdf)
+    printFooterPdf(mainPdf)
 
     app.append( mainPdf)
 }
