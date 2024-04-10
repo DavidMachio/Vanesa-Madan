@@ -15,8 +15,8 @@ export const printMockup = (parent) => {
 
     <div class='contenedortextos'>
     
-    <p><strong>Web desing</strong> (content and layout) <strong>mockup</strong> for fictitious biopharmaceutical company "BioViRNA" (2024).</p>
-    <p>Created using Photoshop (image generation, image editing) and ilustrator (layout, mockup and logo).</p>
+    <p><strong>Web design</strong> (content and layout) <strong>mockup</strong> for fictitious biopharmaceutical company "BioViRNA" (2024).</p>
+    <p>Created using Photoshop (image generation, image editing) and illustrator (layout, mockup and logo).</p>
     <p>"BioViRNA" represents a leader pharmaceutical company that develops new medicines based on messenger ribonucleic acid (mRNA) for use as protein replacement therapies for rare diseases, as immunotherapies, and as vaccines against infectious diseases.</p>
     
     <p>Created by Vanesa Madan.</p>

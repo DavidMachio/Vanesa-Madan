@@ -7,6 +7,7 @@ export const printPortada = (parent) => {
     portada.className = 'portada'
 
     portada.innerHTML = `
+    <div class="general">
     <div class="datos">
   <h2 class="nombre">Vanesa Madan</h2>
   <h3 class="profesion">Scientific Visual Communicator</h3>
@@ -16,6 +17,7 @@ export const printPortada = (parent) => {
   </div>
 </div>
 <img class="fotoPortada" src="/fotoPortada.png" alt="Imagen de cientifica">
+</div>
     `
 parent.append(portada)
 }

@@ -5,12 +5,14 @@
     align-items: flex-end;
     justify-content: space-between;
     gap: var(--gap-xl);
+    position: relative;
 }
 .presentacion {
     display: flex;
     flex-direction: column;
     gap: var(--gap-m);
-    width: 700px;
+    width: auto;
+    margin-bottom: 50px;
     
 }
 .titleHello {
@@ -27,13 +29,28 @@
     left: -62px;
     top: 6px;
 }
+.hello{
+    font-weight: 600;
+    font-size: 21px;
+}
+.textopresentacion {
+    font-size: 10px;
+    font-weight: 400;
+    max-width: 360px;
+}
+.firma {
+    font-size: 14px;
+    font-weight: 500;
+}
 
 .laboratoriosDiv {
     display: flex;
     flex-direction: column;
+    width: 350px;
     min-width: 350px;
     gap: var(--gap-xl);
 }
+
 
 .laboratorioDiv {
     display: flex;
@@ -61,5 +78,6 @@
     }
     .presentacion {
         width: auto;
+        margin-bottom: 0;
     }
 }

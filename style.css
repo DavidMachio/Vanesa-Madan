@@ -10,13 +10,14 @@
 :root {
 
   --vm-primary: black;
-  --vm-secondary: rgb(255, 255, 255);
-  --vm-background-div: rgb(208, 71, 208);
-  --vm-label-1: red;
-  --vm-label-2: blue;
-  --vm-label-3: gold;
-  --vm-label-4: green;
-  --vm-label-5: violet;
+  --vm-secondary: #FFFBF4;
+  --vm-background:rgb(239, 239, 239);
+  --vm-background-div: #4E1B45;
+  --vm-label-1: #8E1A28;
+  --vm-label-2: #2F7BBA;
+  --vm-label-3: #CE934D;
+  --vm-label-4: #839B7C;
+  --vm-label-5: #946299;
   --vm-label-6: blue;
 
   --primary-font: "Poppins", sans-serif;
@@ -29,7 +30,7 @@
   --font-size-xl:20px;
   --font-size-xxl:24px;
   --font-size-extra-xxl:30px;
-  --font-size-extra2-xxl:48px;
+  --font-size-extra2-xxl:45px;
 
   --padding-xs:5px;
   --padding-s:10px;
@@ -79,10 +80,13 @@ p{
 body{
   /* font-family: var(--primary-font); */
   color: var(--vm-primary);
-  background-color: var(--vm-secondary);
+  background-color: var(--vm-background);
   font-family: "Poppins", sans-serif;
 font-weight: 400;
 font-style: normal;
+display: flex;
+justify-content: center;
+padding: 40px;
 
 }
 

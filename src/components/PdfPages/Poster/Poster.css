@@ -7,7 +7,7 @@
     margin-bottom: var(--margin-xxl);
 }
 .postertitle {
-    font-size: var(--font-size-extra2-xxl);
+    font-size: 36px;
     font-weight: 300;
     font-style: italic;
     text-align: center;
@@ -15,7 +15,7 @@
 
 .imgposter {
     padding: var(--padding-extra1-xxl);
-    width: 90%;
+    width: 300px;
     box-shadow: 20px 20px 60px rgba(106, 106, 106, 0.544);
 
     /* padding: var(--padding-l); */

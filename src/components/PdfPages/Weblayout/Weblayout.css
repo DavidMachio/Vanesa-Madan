@@ -7,14 +7,16 @@
     margin-bottom: var(--margin-xxl);
 }
 .weblayouttitle {
-    font-size: 80px;
+    font-size: 36px;
+    font-style: italic;
     font-weight: 800;
     text-align: center;
 }
 
 .imgweblayout {
+    margin-top: 50px;
     padding: var(--padding-extra1-xxl);
-    width: 90%;
+    width: 200px;
 
     /* padding: var(--padding-l); */
 }

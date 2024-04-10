@@ -10,7 +10,7 @@ export const printPoster = (parent) => {
 
     poster.innerHTML = `
 
-    <h2 class='postertitle'>Scientific Poster Desing</h2>
+    <h2 class='postertitle'>Scientific Poster Design</h2>
     <img class='imgposter' src='/Poster.png' alt=''>
 `
 

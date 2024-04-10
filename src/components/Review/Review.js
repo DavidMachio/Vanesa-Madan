@@ -1,6 +1,6 @@
 import './Review.css'
 
-export const printReview = (type, titleReview, medio, parent, color, img1) => {
+export const printReview = (type, titleReview, titleReview2, medio, parent, color, img1) => {
     const divReviews = document.createElement('div');
     divReviews.className = 'divReviews'
 
@@ -10,6 +10,7 @@ export const printReview = (type, titleReview, medio, parent, color, img1) => {
         <div class='reviewDiv'>
             <h3 class='review'>${type}</h3>
             <h2 class='titleReview'>${titleReview}</h2>
+            <h2 class='titleReview'>${titleReview2}</h2>
         </div>
     </div>
     <div class='derecho'>

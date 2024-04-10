@@ -19,12 +19,13 @@
   align-items: end;
   padding: var(--padding-xl);
   background: rgb(249,195,255);
-background: linear-gradient(122deg, rgba(249,195,255,0) 19%, rgba(126,0,143,0.8015581232492998) 57%, rgba(25,0,28,1) 100%);
+background: linear-gradient(122deg, rgba(228, 124, 239, 0) 19%, rgba(125, 22, 139, 0.802) 57%, rgb(43, 0, 48) 100%);
   
 }
 .info h4 {
-  width: 300px;
-  font-weight: 200;
+  width: 150px;
+  font-weight: 400;
+  font-size: 9px;
 }
 
 @media (max-width:800px) {

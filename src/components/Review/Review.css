@@ -11,7 +11,7 @@
 .izquierdo {
     display: flex;
     height: auto;
-    max-width: 500px;
+    max-width: 700px;
     gap: var(--font-size-m);
     padding-right:var(--padding-l);
     margin: 20px 0;
@@ -45,17 +45,17 @@
     background-color: var(--vm-label-5);
 }
 .review {
-    font-size: var(--font-size-m);
+    font-size: 13px;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 500;
 }
 .titleReview {
-    font-size: var(--font-size-l);
-    font-weight: normal;
+    font-size: 14;
+    font-weight: 600;
 }
 
 .medio {
-    font-size: var(--font-size-m);
+    font-size: 11px;
     font-weight: 400;
 }
 

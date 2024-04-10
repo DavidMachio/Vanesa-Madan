@@ -28,7 +28,7 @@ export const printPdf = () => {
 
     printPortada(mainPdf)
     printHola(mainPdf)
-    printTitle('Journal Figures and Graphical Abstracts', '/ImagenTitle.png', mainPdf)
+    printTitle('Journal Figures', 'and Graphical Abstracts', '/ImagenTitle.svg', mainPdf)
     printEstructuras(mainPdf)
     printReplication(mainPdf)
     printConection(mainPdf)

@@ -1,10 +1,18 @@
-.portada {
+.general{
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    gap: var(--gap-xxl);
+    min-height: 80svh;
+    margin-bottom: 100px;
+}
+/* .portada {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: var(--gap-xxl);
     min-height: calc(100svh - 50px);
-}
+} */
 .datos {
     
     height: auto;
@@ -20,12 +28,13 @@
     font-weight: 100;
 }
 .nombre {
-    font-size: var(--font-size-extra-xxl);
+    font-weight: normal;
+    font-size: 25px;
 }
 .profesion {
-    color: rgb(160, 160, 160);
-    font-size: var(--font-size-m);
-    font-weight: 500;
+    color: #86B48D;
+    font-size: 14px;
+    font-weight: normal;
 }
 .portfolioDiv {
     display: flex;
@@ -33,12 +42,21 @@
     gap:var(--gap-xl);
 }
 .portfolio {
-    font-size: var(--font-size-extra2-xxl);
+    font-size: 45px;
+}
+.fecha {
+    font-weight: normal;
+
+    font-size: 25px;
 }
 .fotoPortada {
     width: 45%;
 }
 @media   (max-width:700px) {
+    .general{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
     .portada{
         flex-direction: column;
         gap: var(--gap-xl);

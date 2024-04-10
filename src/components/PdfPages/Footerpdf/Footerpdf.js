@@ -11,7 +11,7 @@ export const printFooterPdf = (parent) => {
     <img class='imgcientifica' src='/cientifica.png' alt=''>
     <div class='info'>
     <h4>E-mail: vmadanr@gmail.com</h4>
-    <h4>Movile: 07474993188</h4>
+    <h4>Mobile: 07474993188</h4>
     <h4>Cambridge 2024</h4>
     </div>
     `

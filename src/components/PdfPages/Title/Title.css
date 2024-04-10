@@ -5,12 +5,13 @@
     flex-direction: column;
     gap: var(--font-size-xl);
 }
-.title {
+.title, .title2{
     font-style: italic;
     font-weight: 300;
-    font-size: var(--font-size-extra2-xxl);
+    font-size: 36;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
 }
 .titleImagen {
     max-height: 500px;

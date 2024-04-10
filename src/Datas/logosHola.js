@@ -7,7 +7,7 @@ export const laboratorios = [
         clase:'severoochoa',
     },
     {
-        img:'/universidadHeidelberg.png',
+        img:'/universidadHeidelberg.jpg',
         imgAlt:'Logotipo de la universidad de Heidelberg',
         lugar:'Heidelberg (Germany)',
         clase:'heidelberg',
